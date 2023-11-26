@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Woodmart HTML,Css and Java script</title>
+
+
+   
+
+
+    <!---------Goggle-Font---------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!---------Font-Awesome---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!---------Bootstrap-CSS---------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!---------Swiper---------->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!---------Main-CSS---------->
+    <link rel="stylesheet" href="back.css">
+    <link rel="stylesheet" href="/Css/main.css">
+</head>
+<body>
+    <!------------------------------------------Header------------------------------------------------>
+    <header class="header" id="header">
+        <nav class="container nav__container" id="header">
+            <div class="logo">
+                <img src="/image/w-developer-logo-header-1.svg" alt="">
+                <span class="name-nav"> Mustafa Abdo</span>
+            </div>
+            <div class="nav-links">
+                <ul class="nav-link">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Me</a>
+                    </li>
+                    <span><div class="btn btn-primary">Apply Now</div></span>
+                </ul>
+            </div>
+            <div class="toggle">
+                <i class="fa-solid fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <label for="exampleDataList" class="form-label"></label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search for products">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <datalist id="datalistOptions">
+                      <option value="Product Design">
+                      <option value="UX Research">
+                      <option value="Prototyping">
+                      <option value=" Visual Design">
+                      <option value="Front-End Development">
+                    </datalist>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+                </div>
+                <div class="offcanvas-body">
+                    <div class="offcanvas-links">
+                        <ul class="offcanvas-links">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-sidpar">
+                        <a href="#" target="_blank">WOODMART</a> | Created By <br> <a href="https://github.com/mustafaabdo2022" target="_blank">MUSTAFA ABDO</a> <br> Copyright &copy; 2023
+                    </div>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!------------------------------------------Hero------------------------------------------------>
+    <div class=" liner__continer">
+        <div class="container hero">
+            <div class="hero__container">
+                <div class="liner__title title">
+                    <div>
+                        <h4>
+                            I Create 
+                            <span>User-friendly</span>
+                            Mobile Applications and Web Experiences ❤️
+                        </h4>
+                        <div class="form-hero">
+                            <form action="">
+                                <input class="form-subscribe" type="email" name="EMAIL" placeholder="Your email address" required="">
+                                <input class="btn btn-primary" type="button" value="Subscribe">
+                            </form>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <img src="/image/w-developer-face-1.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container nav__hero">
+                <ul>
+                    <li>
+                        <a href="#">Product Design</a>
+                    </li>
+                    <li>
+                        <a href="#">UX Research</a>
+                    </li>
+                    <li>
+                        <a href="#">Prototyping</a>
+                    </li>
+                    <li>
+                        <a href="#">Visual Design</a>
+                    </li>
+                    <li>
+                        <a href="#">Front-End Development</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!------------------------------------------Services------------------------------------------------>
+    <div class="services">
+        <div class="container services__container">
+            <div class="services__one">
+                <h4>IN FREELANCING FOR 6 YEARS</h4>
+                <h2>How I Work <br> with My Clients
+                </h2>
+            </div>
+            <div class="info-slid">
+                <div class="services__info">
+                    <img src="/image/w-developer-icon-1-64x64.png" alt="">
+                    <h2>Step 1: Concepts</h2>
+                    <p>Taking into account your wishes, I draw up and make sketches of the appearance.</p>
+                </div>
+                <div class="services__info">
+                    <img src="/image/w-developer-icon-2-64x64.png" alt="">
+                    <h2>Step 2: Design</h2>
+                    <p>The step is when you see how all your ideas are worked out and brought to life.</p>
+                </div>
+                <div class="services__info">
+                    <img src="/image/w-developer-icon-3-64x64.png" alt="">
+                    <h2>Step 3: Develop</h2>
+                    <p>I make edits to the implemented project, and check the quality of the work done.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------Portfolio------------------------------------------------>
+    <div class="container portfolio" id="portfolio">
+        <div class="info-fixed">
+            <div class="avatar-tow">
+                <img src="/image/w-developer-face-2.png" alt="portfolio">
+                <h2>Take a Look at My Portfolio</h2>
+                <p>All these projects were completed on time and delivered to the customer.</p>
+                <p>Do you want the same?</p>
+                <div class="btn btn-primary">Contact me <i class="fa-solid fa-envelope"></i></div>
+            </div>
+        </div>
+        <div class="row-portfolio">
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-1.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-2.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-3.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-4.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-5.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+            <div class="portfolio-gallery">
+                <img src="/image/w-developer-portfollio-gallery-6.jpg.webp" alt="gallery">
+                <small>FURNITURE</small>
+                <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                <span class="social-portfolio">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+                <h3>POTENTI PARTURIENT PARTURIE</h3>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------About-Us------------------------------------------------>
+    
+    <section class="about-us" id="about">
+        <div class="container about__container">
+            <div class="about-info">
+                <div class="about-avatar">
+                    <div class="about-img">
+                        <img src="/image/w-developer-avatar-80x80.png" alt="">
+                    </div>
+                    <div class="about-title">
+                        <h3>NICE TO MEET YOU</h3>
+                        <h2>Hi there, I’m James</h2>
+                    </div>
+                </div>
+                <p>I’ve been a freelancer for 6 years now and have a large client base for which I make amazing products and solutions.</p>
+                <p>I am passionate about creating and designing delightful experiences through a mix of business, marketing and UX / UI design to keep customers and users happy with their products and services online.</p>
+                <div class="about-contact">
+                    <div class="btn btn-primary">Contact me <i class="fa-solid fa-envelope"></i></div>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <h2>Frequently Asked Questions</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How many days does it take to develop a project?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Typically the requirements and design phase takes 2-4 weeks. The duration depends a lot on the availability of you and your team, the reaction to reviews and design questions, and how long it takes to make important decisions.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What is the budget for the project?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>A vel dui a conubia vestibulum class varius vel nunc a gravida ut maecenas quisque a proin condimentum sagittis class at faucibus primis parturient dolor scelerisque himenaeos.</p>
+                            <p>A et ullamcorper vestibulum netus a mauris ac consectetur libero volutpat congue congue turpis a consectetur adipiscing sit.Suspendisse leo fringilla a congue tempus nisi conubia vestibulum a in posuere accumsan.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Can design edits be made during design time?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Sit rhoncus aptent dis scelerisque penatibus a dis tempor accumsan suspendisse mollis a et odio ullamcorper magnis ullamcorper cum ullamcorper duis nulla egestas massa.</p>
+                            <p>Vitae amet nostra est leo dignissim justo sodales et ac a conubia bibendum duis ad justo suspendisse a a tellus cubilia vestibulum a dictumst a duis risus.Sociosqu curae consequat nisl litora a eros est consectetur nulla rhoncus a a id felis praesent.Tempus dui integer a cursus id fames parturient.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+       <!-- Swiper -->
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+        
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-1.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-2.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-3.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-4.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-5.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/image/w-developer-portfollio-gallery-6.jpg.webp" alt="..." class="img-fluid rounded-3" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container contact-me">
+            <div class="contact-info">
+                <div class="avatar">
+                    <img src="/image/w-developer-face-3.png" alt="">
+                </div>
+                <h2>Get in touch</h2>
+                <p>If you have a website or mobile app idea in mind or you need some advice about product design, feel free to contact me. Currently my time books quickly, authorities sooner you write, the better it is for both of us.
+                </p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="btn">Contact Me</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container container__footer">
+            <div class="footer-img"><img src="/image/w-developer-logo-header.svg" alt="">
+            </div>
+            <div class="menu-footer">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <a href="#" target="_blank">WOODMART</a> | Created By | <a href="https://github.com/mustafaabdo2022" target="_blank"><span>MUSTAFA ABDO</span></a> | Copyright &copy; 2023
+        </div>
+        <div class="go-top">
+            <p class="go-top-text">Back To Top</p>
+        </div>
+        
+    </footer>
+
+
+
+
+
+
+
+    <!---------Bootstrap-Js---------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+    <!---------Swiper-Js---------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!---------Main-Js---------->
+    <script src="/Js/main.js"></script>
+</body>
+</html>
