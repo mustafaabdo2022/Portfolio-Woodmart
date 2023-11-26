@@ -49,10 +49,6 @@ a {
 }
 
 
-
-
-
-
 header {
     overflow: hidden;
     width: 100%;
@@ -62,7 +58,6 @@ header {
     z-index: 9999;
 
 }
-
 
 
 nav {
@@ -136,7 +131,7 @@ nav span::before {
 
 .liner__continer  {
     width: 100%;
-    background: #242424 url(/image/w-developer-top-bg.jpg); 
+    background: #242424 url(../image/w-developer-top-bg.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
